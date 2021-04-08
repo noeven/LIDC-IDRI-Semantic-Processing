@@ -7,7 +7,7 @@ To create the Semantic Label Map of lung CT images from LIDC-IDRI dataset.
 </div>
 
 # What's different compared to other repositories?
-Most of the repositories focus on only the ROI regions like lung and nodule for segmentation or augmentation, while this repository aims to depict the semantic image of lung CT images, for which will be feed into GANs to reconstruct the lung CT images. This given notebook is the preprocessing algorithm for creating semantic images of medical CT images.
+Most of the repositories focus on only the ROI regions like lung and nodule for segmentation or augmentation, while this repository aims to depict the semantic image of lung CT images, for which will be fed into GANs to reconstruct the lung CT images. This given notebook is the preprocessing algorithm for creating semantic images of medical CT images.
 
 # Algorithm Pipeline (What did you do through this lengthy notebook)
 1. Read DICOM Files
