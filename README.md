@@ -1,5 +1,5 @@
 # LIDC-IDRI-Semantic-Processing
-The pipeline to create the Semantic Label Map of DICOM data from LIDC-IDRI.
+To create the Semantic Label Map of lung CT images from LIDC-IDRI dataset.
 
 <div align = "center">
 <img src="Media/LIDC-IDRI-0007-38 2.png" width=40%>
