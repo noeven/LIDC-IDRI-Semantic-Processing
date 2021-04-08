@@ -16,7 +16,7 @@ Most of the repositories focus on only the ROI regions like lung and nodule for 
 4. Create the mask for class 5 (lung) by Find_Contour method
 5. Create the mask for class 6 (nodule) by given annotation
 
-To be noted, for the sake of resolution, resampling is not applied since it basically decrease the size.
+To be noted, for the sake of resolution, resampling is not applied since it basically decreases the size and loses the details.
 
 # Description of Depicted Semantic Image
 1. The lung CT images are divided based on HU into 4 Catogries: Body, Tissues, Bones/Organs and Hign Intensity Parts
