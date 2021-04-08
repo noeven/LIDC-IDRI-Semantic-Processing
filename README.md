@@ -19,7 +19,8 @@ Most of the repositories focus on only the ROI regions like lung and nodule for 
 To be noted, for the sake of resolution, resampling is not applied since it basically decrease the size.
 
 # Description of Depicted Semantic Image
-The lung CT images are divided based on HU into 4 Catogries: Body, Tissues, Bones/Organs and Hign Intensity Parts
-Class number 5 is Lung. It is depicted based on Find_Contour Methods in order to preserve the find detail of previous class labels.
-Class number 6 is Nodule. It is depicted based on annotation by experienced radiologist. To be noted, this algorithm is capable to threshold the annotation based on the amount of annotation (maximum 4, default threshold is set to 2).
+1. The lung CT images are divided based on HU into 4 Catogries: Body, Tissues, Bones/Organs and Hign Intensity Parts
+2. Class number 5 is Lung. It is depicted based on Find_Contour Methods in order to preserve the find detail of previous class labels.
+3. Class number 6 is Nodule. It is depicted based on annotation by experienced radiologist.
+4. To be noted, this algorithm is capable to threshold the annotation based on the amount of annotation (maximum 4, default threshold is set to 2).
 
